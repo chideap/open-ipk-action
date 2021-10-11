@@ -154,8 +154,7 @@ jobs:
         allowUpdates: true
         tag: ${{ env.FILE_NAME }}
         commit: main
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         body: |
           ## 以下为常用科学上网插件（每日定时更新）
           使用方式：
